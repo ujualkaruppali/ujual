@@ -1,6 +1,6 @@
 print("enter 3 numbers")
-x=int(input("numebr1 : "))
-y=int(input("numebr2 : "))
+x=int(input("number1 : "))
+y=int(input("number2 : "))
 z=int(input("numebr3 : "))
 if(x>y and x>z):
     print("number 1 is largest")
