@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask,render_template
 app=Flask(__name__)
 
 @app.route('/')
@@ -9,7 +9,7 @@ def hij():
     return 'welcome to about'
 @app.route('/home')
 def hijk():
-    return 'welcome to out'
+    return render_template('home.html')
 @app.route('/icta')
 def icta():
     return 'welcome to icta'
