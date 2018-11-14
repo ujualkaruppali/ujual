@@ -9,3 +9,5 @@ if(x==h):
     print("number is palindrome")
 else:
     print("numer is not palindrome")
+
+

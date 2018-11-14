@@ -1,0 +1,13 @@
+{% extends'layout.html' %}
+{% block myContent %}
+
+<h1>ICT students @ Calicut</h1>
+
+{% for students in myStudentList %}
+
+<ul>
+    <li> {{ students.name }}</li>
+</ul>
+{% endfor %}
+
+{% endblock %}
